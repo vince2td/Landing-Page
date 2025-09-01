@@ -45,7 +45,7 @@ button {
 
 .header-links {
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 .header-links,
@@ -70,12 +70,17 @@ button {
 
 .sign-up {    
     color: #fff;
-    background-color: #3882F6;    
+    background-color: #3882F6;
+    margin-top: 15px;    
 }
 
 .image, 
 .container {
     max-width: 450px;
+}
+
+.image {
+    text-align: center;
 }
 
 .hero-text {
