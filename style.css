@@ -20,7 +20,8 @@ a {
     text-decoration: none;
 }
 
-.header-container {
+.header-container,
+.footer-main {
     background-color: #1F2937;
 }
 
@@ -51,7 +52,8 @@ button {
 
 .header-links,
 .hero-sub,
-.call-sub-text {
+.call-sub-text,
+.footer-text {
     font-size: 15px;
     color: #E5E7EB;
 }
@@ -172,4 +174,8 @@ button {
 .call-button .sign-up {
     margin-top: 0;
     border: 2px solid #E5E7EB;
+}
+
+.footer-main {
+    padding: 25px;
 }
