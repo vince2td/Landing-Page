@@ -50,12 +50,14 @@ button {
 }
 
 .header-links,
-.hero-sub {
+.hero-sub,
+.call-sub-text {
     font-size: 15px;
     color: #E5E7EB;
 }
 
-.header-title {
+.header-title,
+.call-text {
     font-size: 24px;
     color: #F9FAF9;
 }
@@ -151,4 +153,23 @@ button {
 
 .quote-main {
     background-color: #E5E7EB;
+}
+
+.call {
+    width: 780px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.sub-container.call-action {
+    background-color: #3882F6;
+    margin: 100px 0;
+    border-radius: 8px;
+}
+
+.call-button .sign-up {
+    margin-top: 0;
+    border: 2px solid #E5E7EB;
 }
